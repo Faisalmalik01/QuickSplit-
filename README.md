@@ -1,12 +1,28 @@
-# React + Vite
+# QuickSplit - Bill Splitter for Groups
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**QuickSplit** is a minimalistic and trendy bill splitting app that helps groups easily split their expenses. Add friends, track your expenses, and see who owes whom with the auto-calculated splits. Perfect for managing group payments, whether it's dinner, a trip, or any shared expense.
 
-Currently, two official plugins are available:
+## Features
+- Add and manage friends.
+- Add expenses with the amount and who paid.
+- Automatically calculates who owes whom and how much.
+- Clean, minimal UI with smooth animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React
+- **CSS**: Tailwind CSS for styling
+- **State Management**: React hooks (`useState`, `useEffect`, `useCallback`)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Installation
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/quicksplit.git
+   cd quicksplit
